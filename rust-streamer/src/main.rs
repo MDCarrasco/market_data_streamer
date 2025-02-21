@@ -7,11 +7,11 @@ const BINANCE_WS_URL: &str = "wss://stream.binance.com:9443/ws/btcusdt@trade";
 
 #[derive(Debug, Deserialize, Serialize)]
 struct Trade {
-    #[serde(rename = 'p')]
+    #[serde(rename = "p")]
     price: String,
-    #[serde(rename = 'q')]
+    #[serde(rename = "q")]
     quantity: String,
-    #[serde(rename = 'q')]
+    #[serde(rename = "q")]
     timestamp: u64
 }
 
@@ -26,7 +26,7 @@ async fn main() {
     let (_, mut read) = ws_stream.split();
 
     let client = redis::Client::open("redis://redis:6379").expect("🚨 Redis connection error");
-    let mut con = client.get_async_connection().await.expect("❌ Can't connect to Redis");
+    let mut con = client.get_tokio_connection().await.expect("❌ Can't connect to Redis");
 
     println!("✅ Connection successful ! Reading trades in real time...");
 
