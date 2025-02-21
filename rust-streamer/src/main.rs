@@ -1,7 +1,7 @@
-use tokio::net::TcpStream;
 use tokio_tungstenite::{connect_async, tungstenite::protocol::Message};
-use futures_utils::{StreamExt, SinkExt};
+use futures_util::{StreamExt};
 use serde::{Deserialize, Serialize};
+use redis::AsyncCommands;
 
 const BINANCE_WS_URL: &str = "wss://stream.binance.com:9443/ws/btcusdt@trade";
 
