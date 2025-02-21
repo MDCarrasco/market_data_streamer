@@ -1,0 +1,11 @@
+/Users/faultyquisby/market_data_streamer/rust-streamer/target/release/deps/librand_core-ea747906ed249c63.rmeta: /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/lib.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/block.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/impls.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/le.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/os.rs
+
+/Users/faultyquisby/market_data_streamer/rust-streamer/target/release/deps/librand_core-ea747906ed249c63.rlib: /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/lib.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/block.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/impls.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/le.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/os.rs
+
+/Users/faultyquisby/market_data_streamer/rust-streamer/target/release/deps/rand_core-ea747906ed249c63.d: /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/lib.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/block.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/impls.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/le.rs /Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/os.rs
+
+/Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/lib.rs:
+/Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/block.rs:
+/Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/impls.rs:
+/Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/le.rs:
+/Users/faultyquisby/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.1/src/os.rs:

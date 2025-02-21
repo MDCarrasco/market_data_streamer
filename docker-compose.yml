@@ -2,7 +2,8 @@ services:
   rust-streamer:
     build: ./rust-streamer
     depends_on:
-      - redis
+      redis:
+        condition: service_healthy
     environment:
       - REDIS_URL=redis://redis:6379
     networks:
@@ -15,12 +16,19 @@ services:
       - "6379:6379"
     networks:
       - market_net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
 
   python-api:
     build: ./python-api
     depends_on:
-      - redis
-      - rust-streamer
+      redis:
+        condition: service_healthy
+      rust-streamer:
+        condition: service_started
     ports:
       - "8000:8000"
     networks:
