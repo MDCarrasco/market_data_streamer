@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   rust-streamer:
     build: ./rust-streamer
